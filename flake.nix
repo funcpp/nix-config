@@ -41,8 +41,8 @@
                   ApplePressAndHoldEnabled = false;
                   KeyRepeat = 2;
                   InitialKeyRepeat = 15;
+                  "com.apple.keyboard.fnState" = true;
                 };
-                hitoolbox.AppleFnUsageType = "Do Nothing";
                 dock = {
                   autohide = true;
                   show-recents = false;
@@ -93,7 +93,7 @@
                   enable = true;
                   shellAliases = {
                     ll = "ls -la";
-                    rebuild = "darwin-rebuild switch --flake ~/.config/nix-darwin#sushi";
+                    rebuild = "darwin-rebuild switch --flake ~/.config/nix#sushi";
                     c = "clear";
                     cc = "claude";
                     w = "cd ~/workspace";
