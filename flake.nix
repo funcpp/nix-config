@@ -86,6 +86,7 @@
                   bun
                   jq
                   gh
+                  awscli2
                 ];
 
                 programs.tmux.enable = true;
