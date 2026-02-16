@@ -63,6 +63,9 @@
                   "claude"
                   "karabiner-elements"
                 ];
+                masApps = {
+                  WireGuard = 1451685025;
+                };
               };
             }
           )
@@ -87,6 +90,10 @@
                   jq
                   gh
                   awscli2
+                  postgresql
+                  duckdb
+                  typescript
+                  typescript-language-server
                 ];
 
                 programs.tmux.enable = true;
