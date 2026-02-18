@@ -94,6 +94,8 @@
                   duckdb
                   typescript
                   typescript-language-server
+                  glow
+                  uv
                 ];
 
                 programs.tmux.enable = true;
